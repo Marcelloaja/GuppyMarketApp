@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.GuppyMarketIDN" parent="Base.Theme.GuppyMarketIDN">
+        <!-- Transparent system bars for edge-to-edge. -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+    </style>
+
+    <!-- Custom RangeSlider Theme -->
+    <style name="CustomRangeSlider" parent="Widget.MaterialComponents.Slider">
+        <item name="thumbRadius">6dp</item>
+        <item name="trackHeight">8dp</item>
+        <item name="haloRadius">12dp</item>
+    </style>
+</resources>

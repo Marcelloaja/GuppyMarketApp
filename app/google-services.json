@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "983466890455",
+    "firebase_url": "https://guppymarket-4fd50-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "guppymarket-4fd50",
+    "storage_bucket": "guppymarket-4fd50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983466890455:android:c3c86895aa614533010c92",
+        "android_client_info": {
+          "package_name": "com.stiki.marcelloilham.guppymarketidn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983466890455-p8sqdt6dsf2irlfdnioeqkjvi32i5icq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stiki.marcelloilham.guppymarketidn",
+            "certificate_hash": "5405d653043f2217c5a796a9752bf7436f98831b"
+          }
+        },
+        {
+          "client_id": "983466890455-68tqnisqnb25v8n0majjpqnqjske9dbl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZpgPLfwtaP2hKVLLVrxrbID14C8XLuSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983466890455-68tqnisqnb25v8n0majjpqnqjske9dbl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

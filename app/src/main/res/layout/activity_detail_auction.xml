@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".menuAuction.DetailAuctionActivity">
+
+    <TextView
+        android:id="@+id/tvAuctionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auction Title"
+        android:textSize="24sp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/tvAuctionDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auction Description"
+        android:layout_below="@id/tvAuctionTitle"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

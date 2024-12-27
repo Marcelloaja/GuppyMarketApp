@@ -1,0 +1,1 @@
+The GuppyMarket app is designed for Guppy enthusiasts and breeders in Indonesia. With features like maps, community, auctions, and fish trading, GuppyMarket makes it easy for users to find breeders, share information, and conduct transactions safely. GuppyMarket aims to build a strong ecosystem for the Guppy community nationwide.

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/white"
+    tools:context=".intro.Intro">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="415dp"
+        android:layout_height="323dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/pendahuluan" />
+
+    <TextView
+        android:id="@+id/helloTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_bold"
+        android:text="HELLO!"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:letterSpacing="0.15"
+        android:layout_marginTop="24dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="272dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/inter_medium"
+        android:letterSpacing="0.15"
+        android:gravity="center"
+        android:text="The GuppyMarket app is designed for Guppy enthusiasts and breeders in Indonesia. With features like maps, community, auctions, and fish trading, GuppyMarket makes it easy for users to find breeders, share information, and conduct transactions safely. GuppyMarket aims to build a strong ecosystem for the Guppy community nationwide."
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/loginButtonIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="LOGIN"
+        android:width="272dp"
+        android:textSize="15dp"
+        android:backgroundTint="#7B66FF"
+        android:background="@drawable/button_border_full"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="80dp"/>
+
+    <Button
+        android:id="@+id/registerButtonIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="REGISTER"
+        android:width="272dp"
+        android:textSize="15dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@android:color/white"
+        android:textColor="#7B66FF"
+        android:background="@drawable/button_border_outline"/>
+
+</LinearLayout>
